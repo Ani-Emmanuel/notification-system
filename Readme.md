@@ -15,7 +15,8 @@ But if you want to view the code, you can clone this project and open it with yo
 > Run with Visual Studio (Api_Gateway)
   - Clone the project
   - run yarn on both projects
-  - Make sure mongo db is running and on default port 27017 
+  - Make sure mongo db is running and on default port 27017
+  - make sure to start redis 
   - Add a .env file with values for DB_URI, REDIS_HOST, REDIS_PORT, REDIS_URL
   # Example 
      DB_URI = mongodb://127.0.0.1:27017/notification
