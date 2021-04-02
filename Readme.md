@@ -26,7 +26,7 @@ But if you want to view the code, you can clone this project and open it with yo
   - RUN yarn run dev for development
 
 > Run with Visual Studio (Notification_client)
-  - Add a .env file with values for DOMAIN=(backend host), REACT_APP_BASE_URL=(backend route), REACT_APP_SOCKET_URL=(backend host)   
+  - Add a .env file with values for DOMAIN, REACT_APP_BASE_URL, REACT_APP_SOCKET_URL   
    # Example 
       DOMAIN=http://localhost:8080
       REACT_APP_BASE_URL=$DOMAIN/api
